@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>ESM 基本模块引入示例</p>
+    <script type="module" src="main.mjs"></script>
+    <script nomodule src="./fallback.js"></script>
+    <script defer>
+        window.addEventListener('load', function() {
+            console.info('onload');
+        });
+    </script>
+</body>
+
+</html>

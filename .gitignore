@@ -1,1 +1,4 @@
 node_modules
+
+# snowpack 打包输出目录
+/snowpack_project/build

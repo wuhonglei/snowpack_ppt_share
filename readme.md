@@ -1,6 +1,22 @@
 ## ppt 分享示例内容
 ### ESM
 展示了浏览器引用 ESM 模块的方式，例如引用本地模块、第三方模块、url 模块
+演示项目：
+1. 引用本地模块
+2. 引用第三方模块（node_modules）
+3. 引用 url 模块（https://unpkg.com/lodash-es@4.17.15/lodash.js）
+
+### blank_project
+使用 snowpack 创建空项目
+```
+create-snowpack-app blank_project --template @snowpack/app-template-blank
+```
+
+演示项目：
+1. 创建基本空项目
+2. 引用 css、image、json 资源
+3. 使用别名
+4. 展示文件结构（snowpack知识点介绍）
 
 ### snowpack_project
 展示了 snowpack 使用模板创建 vue 项目的结构，并且结合了 webpack 进行打包

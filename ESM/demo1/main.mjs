@@ -5,8 +5,8 @@ counter();
 display();
 
 // 加载 node_modules 模块
-import {get } from './node_modules/lodash-es/lodash.js';
-console.info(get(window, 'location'));
+// import {get } from './node_modules/lodash-es/lodash.js';
+// console.info(get(window, 'location'));
 
 // 导入 url 模块
 // import { forEach } from 'https://unpkg.com/lodash-es@4.17.15/lodash.js';
@@ -15,3 +15,5 @@ console.info(get(window, 'location'));
 // });
 
 // TODO 举例直接演示 import { get } from 'lodash-es'
+
+// import './style/base.css';

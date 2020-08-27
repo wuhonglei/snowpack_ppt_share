@@ -1,19 +1,20 @@
 {
-    "scripts": {
-        "start": "snowpack dev",
-        "build": "snowpack build",
-        "test": "echo \"Vue 3.0 test support is still in progress.\" && exit 1"
-    },
-    "dependencies": {
-        "vue": "^3.0.0-rc.4"
-    },
-    "devDependencies": {
-        "@snowpack/app-scripts-vue": "^1.8.2",
-        "@snowpack/plugin-webpack": "^2.0.2",
-        "snowpack": "^2.7.7",
-        "babel-loader": "^8.1.0",
-        "@babel/core": "^7.10.5",
-        "@babel/preset-env": "^7.10.4",
-        "core-js": "^3.6.5"
-    }
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Vue 3.0 test support is still in progress.\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.4",
+    "vue-clickaway": "^2.2.2"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-vue": "^1.8.2",
+    "@snowpack/plugin-webpack": "^2.0.2",
+    "snowpack": "^2.7.7",
+    "babel-loader": "^8.1.0",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "core-js": "^3.6.5"
+  }
 }

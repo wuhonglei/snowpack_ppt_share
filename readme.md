@@ -30,6 +30,24 @@ create-snowpack-app blank_project --template @snowpack/app-template-blank
 验证 snowpack 是否支持配置子路径
 结论：支持
 
+```javascript
+// snowpack.config.json
+{
+    "mount": {
+        "public": "/",
+        "src": "/_dist_"
+    },
+    "buildOptions": {
+        "baseUrl": "/build"
+    },
+    "plugins": []
+}
+```
+
+```html
+<script type="module" src="%PUBLIC_URL%/_dist_/index.js"></script>
+```
+
 ### circle_refer
 验证 snowpack 是否支持循环引用
 结论：不支持

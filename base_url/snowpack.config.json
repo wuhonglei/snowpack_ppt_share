@@ -1,0 +1,10 @@
+{
+    "mount": {
+        "public": "/",
+        "src": "/_dist_"
+    },
+    "buildOptions": {
+        "baseUrl": "/build"
+    },
+    "plugins": []
+}
